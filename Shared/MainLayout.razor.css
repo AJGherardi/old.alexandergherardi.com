@@ -6,13 +6,15 @@
     left: 0;
     height: 100%;
     width: 100%;
+    background-color:rgba(207, 216, 220, 0.6);
 }
 
 .main {
     flex: 1;
-    justify-self: center;
-    align-self: center;
+    justify-self:left;
+    align-self: flex-start;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    margin-top: clamp(3rem, -0.4375rem + 4.1665vw, 3rem);
+    margin-left: clamp(3rem, -0.4375rem + 4.1665vw, 3rem);
 }
