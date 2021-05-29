@@ -34,6 +34,7 @@ a {
   font-family: 'Fredoka One', cursive;
   font-style: normal;
   font-weight: 400;
+
   font-size: clamp(1rem, -0.4375rem + 4.1665vw, 1.75rem);
   margin-left: 0rem;
   margin-top: 0.6rem;
@@ -45,6 +46,7 @@ a {
   user-select: none;   
   color: #607D8B;
   text-decoration: none;
+  width: fit-content
 }
 
 a:active {
