@@ -4,8 +4,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
     width: 100%;
+    overflow: hidden;
     background-color:rgba(207, 216, 220, 0.6);
 }
 
@@ -18,7 +18,7 @@ body {
     margin-top: clamp(3rem, -0.4375rem + 4.1665vw, 3rem);
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 550px) {
     .main {
         justify-self: left;
         align-self: flex-start;
